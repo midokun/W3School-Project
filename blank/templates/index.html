@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        h1 {
+        font-family: "matrix-ii-display-inline-ext", sans-serif;
+        font-weight: bold;
+        font-style: normal;
+            color: #990000; /* Dark Red */
+        }
+         </style>
+</head>
+<body>
+    <header>
+        <style>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Our Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+            </style>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h1>Midokun Cybersecurity Forces</h1>
+        <h3><p>Your Trusted Partner in IT Security</p></h3>
+        <a href="#contact" class="cta-button">Contact Us</a>
+    </section>
+    
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>We are a dedicated team of IT security professionals committed to safeguarding your digital assets and data.</p>
+    </section>
+    
+    <section id="services" class="services-section">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Network Security</li>
+            <li>Data Encryption</li>
+            <li>Vulnerability Assessment</li>
+            <li>Incident Response</li>
+            <li>Security Consulting</li>
+        </ul>
+    </section>
+    
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Get in touch with our team for a consultation or to learn more about our services.</p>
+        <a href="mailto:contact@midokuncybersecurity.com" class="cta-button">Email Us</a>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Midokun Cybersecurity Forces</p>
+    </footer>
+</body>
+</html>
+
+{% endblock %}

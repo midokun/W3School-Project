@@ -1,0 +1,46 @@
+/* Import fonts from Typekit */
+@import url('https://use.typekit.net/sve8kzx.css');
+
+/* Define font styles for specific elements */
+h1 {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+}
+
+/* Define font styles for various Nexa Rust fonts */
+.nexa-rust-slab-black-shad-2 h2 {
+    font-family: "nexa-rust-slab-black-shad-2", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.nexa-rust-slab-black-2 {
+    font-family: "nexa-rust-slab-black-2", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.nexa-rust-slab-black {
+    font-family: "nexa-rust-slab-black", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.nexa-rust-script-shad-2 {
+    font-family: "nexa-rust-script-shad-2", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.nexa-rust-script {
+    font-family: "nexa-rust-script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Matrix II Inline OT Extra Bold {
+    font-family: "matrix-ii-display-inline-ext", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
